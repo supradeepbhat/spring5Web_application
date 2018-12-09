@@ -12,6 +12,10 @@ public class Book {
     private Long id;
 
     private String title;
+
+    public Book() {
+    }
+
     private String isbn;
 
     @OneToOne
